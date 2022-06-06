@@ -2,8 +2,6 @@ let display = document.getElementById('display');
 
 let clicks = Array.from(document.getElementsByClassName('click'));
 
-    console.log(clicks);
-
 clicks.map(click => {
     click.addEventListener('click', (e) => {
         switch(e.target.innerText) {
