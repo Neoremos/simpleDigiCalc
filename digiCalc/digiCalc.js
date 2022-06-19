@@ -13,7 +13,7 @@ clicks.map(click => {
                 break;
             case '=':
                 try {
-                    display.innerText = eval(display.innerText.slice(0, -1));
+                    display.innerText = eval(display.innerText);
                 } catch {
                     display.innerText = 'Error!';
                 }
